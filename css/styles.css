@@ -269,15 +269,15 @@ img {
   }
   
   .website-logo {
-	width: 40px;
-	height: 40px;
+	width: 35px;
+	height: 35px;
 	margin-left: 10px;
 	margin-right: 10px;
   }
   
   .info-link {
 	color: gray;
-	font-size: 24px;
+	font-size: 20px;
 	text-align: left;
 	margin-left: 10px;
   }
