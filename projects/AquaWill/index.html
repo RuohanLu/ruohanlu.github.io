@@ -94,11 +94,9 @@
           href="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/css/lightgallery.min.css" />
         <div class=".article-gallery">
           <h1 id="Aqua's Will">A Unity 2D Platform-adventure Game</h1>
-          <p>Aqua&#39;s Will is a student program at SHU. By creating a single-player game, our goal is to make
+          <p>Aqua&#39;s Will is a 6 students' program at Shanghai University. By creating a single-player game, our goal is to make
             people realize the importance of protecting the environment with a compelling backstory and detailed
             action.</p>
-          <p>This was a 6 person team project where we created an ocean pollution-related game for the 2023
-            Tencent Youth Game Design Challenge.</p>
           <div class="embed-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/gspIyN3kA_I?si=evm8nGpSNEKLqDPH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
           <h5 id="project-info">Project Info:</h5>
@@ -118,14 +116,11 @@
             <p>Today, 40 percent of the world&#39;s oceans are severely impacted by humans, and more than half of
               the coastal habitats are being degraded. As humans enjoy the natural gifts of the ocean, we must remember
               the pain that the ocean has experienced.
-              We created an ocean-themed game and hoped to use it to bring people into a marine life perspective.</p>
-            <h5 id="our-goal">Our Goal</h5>
-            <p>By creating a single-player game, our goal is to make people realize the importance of protecting
-              the environment with a compelling backstory and detailed action.</p>
+              Thus, We created an ocean-themed game and hoped to use it to bring people into a marine life perspective.</p>
             <h5 id="my-duty">My Duty</h5>
             <p>As the lead programmer and designer on the team, my responsibilities include building scene
               interactions, writing enemy AI to bring this game world to life and design game level and mechanics.</p>
-            <h5 id="introductory-scene"><strong>INTRODUCTORY SCENE</strong></h5>
+            <h5 id="introductory-scene">Introductory Scene</h5>
             <p>The gameplay experience begins with an introductory scene that invites the player into Aqua&#39;s
               world with a story opening. Through on-screen transitions, the player becomes Aqua and embarks on a
               quest to save his friends.</p>
@@ -159,20 +154,19 @@
               world. However, during user testing, a player raised a critical issue - the immense open spaces made it
               difficult to find the path to the final boss. At the same time, players responded that they didn&#39;t
               know what the organs on the road were and how those organs worked on the players.</p>
-            <p><strong>Solution</strong>: We added visual cues, landmarks, and defined pathways to
-              guide players while revising the grand scale of the environment. </p>
-            <p><img src="/projects/AquaWill/image/visualCues.png" style="zoom:33%;" /></p>
-            <p>Additionally, we restructured certain areas of the map, breaking down the larger open spaces into
+            <p><strong>Solution</strong>: First, we restructured certain areas of the map, breaking down the larger open spaces into
               more manageable sections connected by well-defined pathways. This not only facilitated easier navigation
               but also enhanced the overall flow of gameplay.</p>
+            <p>Then, we added visual cues, landmarks, and defined pathways to
+              guide players while revising the grand scale of the environment. </p>
+            <p><img src="/projects/AquaWill/image/visualCues.png" style="zoom:33%;" /></p>
             <p>After this improvement, there was a noticeable increase in player ratings of the maps, which they
               felt were helpful in helping them understand the map&#39;s content and complete the flow of the game.
             </p>
             <p>Here&#39;s the iteration of final map:</p>
             <p><img src="/projects/AquaWill/image/finalMap.png" style="zoom:50%;" /></p>
             <h6 id="customized-enemy-ai-system">Customized Enemy AI System</h6>
-            <p><strong>Problem</strong>:</p>
-            <p>When creating a platform-adventure game, one of the primary concerns is designing the enemy AI
+            <p><strong>Problem</strong>: When creating a platform-adventure game, one of the primary concerns is designing the enemy AI
               system.</p>
             <p>Initially, we use simple conditional judgements to make enemies,
               which offered basic functionalities for patrolling, detecting the player, and engaging in combat.
@@ -180,8 +174,7 @@
               intelligence in enemy behavior. Additionally, as our game heavily relies on the AI to provide dynamic
               and immersive gameplay experiences, we found it necessary to explore the development of a custom AI
               system to meet our specific requirements.</p>
-            <p><strong>Solution</strong>:</p>
-            <p>To overcome these challenges, I studied the following ways to compose an enemy AI.</p>
+            <p><strong>Solution</strong>: To overcome these challenges, I studied the following ways to compose an enemy AI.</p>
             <ul>
               <li>Conditional judgment</li>
               <li>Finite state machines</li>
@@ -200,31 +193,31 @@
             </p>
             <p><img src="/projects/AquaWill/image/bossStatus.png" style="zoom:30%;" /></p>
             <p>Boss can achieve functions are as follows: </p>
-            <ol start="">
+            <ul>
               <li>The boss can automatically follow the protagonist; </li>
               <li>The boss model has a total of four actions: Idle (Idle) Run (Run) Attack (Attack) Death (Death)
                 Impact (Smash); </li>
               <li>The boss can respond to player's different action. </li>
-            </ol>
+              </ul>
             <p>In this case the state machine can be subdivided into: the state machine system, the state base class,
               and the actual script mounted on the object. First, the different states are written using inherited state
               base classes, then the state machine system is called to control the state methods, and then the
               individual states are added by registering events in the actual script on the object.
             </p>
             <h4 id="things-i-did">Things I did</h4>
-            <ol start="">
+            <ul>
               <li>The code framework of the whole project.</li>
               <li>Control system for player characters.</li>
               <li>Interaction effects between the player and the scene.</li>
               <li>Gameplay, game mechanics and game scenarios.</li>
-            </ol>
+            </ul>
             <h4 id="what-i-learned">What I learned</h4>
-            <ol start="">
+            <ul>
               <li>Implement a 2D Platform-adventure game from 0 to 1.</li>
               <li>Develop a custom finite state machines AI system within Unity.</li>
               <li>Process of working with art, handover of documents</li>
               <li>Teamwork to design the flow of the game</li>
-            </ol>
+            </ul>
           </div>
         </div>
 
