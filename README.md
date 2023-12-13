@@ -1,3 +1,3 @@
 # ruohanlu.github.io
-wel come to Ruohan's portfolio
+welcome to Ruohan's portfolio
 
